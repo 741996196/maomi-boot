@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maomi-yancy-generator" />
+        <module name="maomi-yancy-commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maomi-boot" target="1.8" />
+      <module name="maomi-yancy-commons" target="1.8" />
+      <module name="maomi-yancy-generator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="maomi-boot" options="-parameters" />
+      <module name="maomi-yancy-commons" options="-parameters" />
+      <module name="maomi-yancy-generator" options="-parameters" />
+    </option>
+  </component>
+</project>

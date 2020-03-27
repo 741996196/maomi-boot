@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="902193fd-8e99-4011-b70e-35876df71f03" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZNuPWN1AO1yMGbKJ2Mk4pgrA14" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maomi-yancy-hs" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\projects\maomi-boot\maomi-yancy-commons\src\main\java\com\yancy\boot\mapper" />
+      <recent name="E:\java\projects\maomi-boot\maomi-yancy-commons\src\main\java\com\yancy\boot" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+      <command value="mvn clean package -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="maomi-yancy-commons" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yancy.boot.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaomiBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="maomi-boot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yancy.boot.MaomiBootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaomiYancyGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="maomi-yancy-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yancy.boot.MaomiYancyGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.MaomiBootApplication" />
+      <item itemvalue="Spring Boot.MaomiYancyGeneratorApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902193fd-8e99-4011-b70e-35876df71f03" name="Default Changelist" comment="" />
+      <created>1584691849024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584691849024</updated>
+      <workItem from="1584691853288" duration="2887000" />
+      <workItem from="1584699507427" duration="4006000" />
+      <workItem from="1584763372299" duration="13729000" />
+      <workItem from="1584784118026" duration="363000" />
+      <workItem from="1584857167854" duration="10929000" />
+      <workItem from="1584871283955" duration="113000" />
+      <workItem from="1584935562971" duration="1411000" />
+      <workItem from="1585118557755" duration="2160000" />
+      <workItem from="1585201423641" duration="1980000" />
+      <workItem from="1585204069102" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1584864513861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1584864513861" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584694709995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584694709995" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584859319256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584859319256" />
+    <state x="505" y="300" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584694644708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="300" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584694644708" />
+    <state width="470" height="466" key="DebuggerActiveHint" timestamp="1584865848787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="470" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1584865848787" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585202516813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585202516813" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585203976246">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585203976246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585203976246">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585203976246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585203976245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585203976245" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585203976246">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585203976246" />
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1584869619641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584869619641" />
+    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1584869619640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584869619640" />
+    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1584869619640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584869619640" />
+    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1584869619640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584869619640" />
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom" timestamp="1584869619641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584869619641" />
+    <state width="1493" height="258" key="GridCell.Tab.2.center" timestamp="1584869619641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584869619641" />
+    <state width="1493" height="258" key="GridCell.Tab.2.left" timestamp="1584869619641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584869619641" />
+    <state width="1493" height="258" key="GridCell.Tab.2.right" timestamp="1584869619641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="258" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584869619641" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1584776367413">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584776367413" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584935614522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584935614522" />
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584763770565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584763770565" />
+    <state x="178" y="114" key="new project wizard" timestamp="1585124389454">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585124389454" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1584777197285">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584777197285" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/maomi-yancy-commons/src/main/java/com/yancy/boot/config/MyRealm.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/maomi-yancy-commons/src/main/java/com/yancy/boot/config/MyRealm.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

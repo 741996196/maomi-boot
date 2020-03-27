@@ -1,0 +1,5 @@
+com\yancy\boot\mapper\account\mapper\CapitalAccountMapper.class
+com\yancy\boot\mapper\redaccount\mapper\RedPacketAccountMapper.class
+com\yancy\boot\mapper\account\entity\CapitalAccount.class
+com\yancy\boot\MaomiYancyGeneratorApplication.class
+com\yancy\boot\mapper\redaccount\entity\RedPacketAccount.class

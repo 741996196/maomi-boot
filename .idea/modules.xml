@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maomi-boot.iml" filepath="$PROJECT_DIR$/maomi-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomi-yancy-commons/maomi-yancy-commons.iml" filepath="$PROJECT_DIR$/maomi-yancy-commons/maomi-yancy-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maomi-yancy-generator/maomi-yancy-generator.iml" filepath="$PROJECT_DIR$/maomi-yancy-generator/maomi-yancy-generator.iml" />
+    </modules>
+  </component>
+</project>

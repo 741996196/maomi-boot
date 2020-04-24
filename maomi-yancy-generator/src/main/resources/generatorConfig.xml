@@ -39,7 +39,7 @@
 
 
         <!-- 设置数据库表名 -->
-        <table tableName="permission" domainObjectName="Permission">
+        <table tableName="users" domainObjectName="Users">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
     </context>

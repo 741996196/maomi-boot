@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>video</title>
+</head>
+<body>
+<span><input style="width: 75%; height: 100%;display: block" type="file" name="myfile" onchange="uploadVideo(this)"/>
+</span>
+</body>
+<script>
+    function uploadVideo(video){
+        var fileObj =video.files[0];
+
+        if(fileObj != undefined){
+            if(fileObj.name){
+                console.log(fileObj.name)
+            }else{
+                alert("请选择文件");
+            }
+
+            var size=fileObj.size;
+            var type=fileObj.type;
+
+            //校验格式
+            if(type.indexOf('mp4') == -1){
+                alert("请上传MP4格式")
+                return false;
+            }
+            //校验大小
+            if(size /1024 /2014>10){
+                alert("请上传"+size+"之内的视频")
+            }
+
+            var form =new FormData();
+
+            form.append("file",fileObj);
+
+            $.ajax({
+                url:"uploadVidoe",
+                contentType:false,
+                processData:false,
+                type:"POST",
+                data:form,
+                success:function (ret) {
+                      if(ret.resCode != undefined){
+                          if(ret.resCode == '1'){
+                              alert("上传成功")
+                          }else if(ret.resCode=='0'){
+                              alert("上传失败")
+                          }
+                      }
+                }
+
+            })
+        }
+    }
+</script>
+</html>

@@ -3,12 +3,14 @@ package com.yancy.boot.service;
 import com.yancy.boot.mapper.user.entity.Permission;
 import com.yancy.boot.mapper.user.entity.Role;
 import com.yancy.boot.mapper.user.entity.User;
+import com.yancy.boot.mapper.user.entity.Users;
 import com.yancy.boot.mapper.user.mapper.PermissionMapper;
 import com.yancy.boot.mapper.user.mapper.RoleMapper;
 import com.yancy.boot.mapper.user.mapper.UserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.yancy.boot.mapper.user.mapper.UsersMapper;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -16,11 +18,14 @@ import java.util.Set;
 @Service
 public class UserService {
 
-    @Autowired
+    @Resource
+    private UsersMapper usersMapper;
+
+    @Resource
     private UserMapper userMapper;
-    @Autowired
+    @Resource
     private RoleMapper roleMapper;
-    @Autowired
+    @Resource
     private PermissionMapper permissionMapper;
 
     public User getUser(String username){
@@ -60,5 +65,12 @@ public class UserService {
 
     }
 
+    public List<User> userAll(){
+        return userMapper.userAll();
+    }
+
+    public List<Users> usersAll(){
+        return usersMapper.selectAll();
+    }
 
 }

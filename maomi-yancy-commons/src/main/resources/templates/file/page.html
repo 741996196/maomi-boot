@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="card-body" >
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>ID</th>
+            <th>用户名</th>
+            <th>姓名</th>
+            <th>车牌号</th>
+            <th>电话</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item:${pageInfo.list}">
+            <td th:text="${item.mem_name}"></td>
+            <td th:text="${item.mem_phone}"></td>
+            <td th:text="${item.mem_score}"></td>
+            <td th:text="${item.mem_num}"></td>
+            <td>
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-danger">编辑</button>
+                    <button class="btn btn-sm btn-danger">拉黑</button>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link"><span th:text="第+${pageInfo.pageNum}+页"></span></a></li>
+        <li class="page-item"><a class="page-link" th:href="@{/admin/manageMember}">首页</a></li>
+        <li class="page-item"><a class="page-link" th:href="@{/admin/manageMember(pageNum=1)}">1</a></li>
+        <li class="page-item"><a class="page-link" th:href="@{/admin/manageMember(pageNum=2)}">2</a></li>
+        <li class="page-item"><a class="page-link" th:href="@{/admin/manageMember(pageNum=${pageInfo.getNextPage()})}">Next</a></li>
+    </ul>
+</div>
+
+
+</body>
+</html>

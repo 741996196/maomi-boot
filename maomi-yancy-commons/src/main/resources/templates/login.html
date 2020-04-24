@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html  lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/css/login.css" th:href="@{css/login.css}" rel="stylesheet"/>
+    <title>登录界面</title>
+</head>
+<body class="signin">
+  登录界面
+  <input type="text"     name="username" class="form-control uname"     placeholder="用户名" value="admin"    />
+  <input type="password" name="password" class="form-control pword"     placeholder="密码"   value="admin123" />
+  <button class="btn btn-success btn-block" id="btnSubmit" data-loading="正在验证登录，请稍后...">登录</button>
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../static/js/login.js" th:src="@{js/login.js}"></script>
+</body>
+
+</html>

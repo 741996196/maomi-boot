@@ -19,7 +19,7 @@ public class UserDataSourceConfiguration {
     /**
      * mybatis的xml文件.
      */
-    public static final String MAPPER_XML_LOCATION = "classpath*:com/yancy/boot/mapper/user/mapper/*.xml";
+    public static final String MAPPER_XML_LOCATION = "classpath*:com/yancy/boot/mapper/user/mapper/xml/*.xml";
 
     @Autowired
     @Qualifier("UserDataSource")

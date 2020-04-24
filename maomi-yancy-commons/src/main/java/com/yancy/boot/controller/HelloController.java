@@ -2,6 +2,7 @@ package com.yancy.boot.controller;
 
 import com.yancy.boot.mapper.account.entity.CapitalAccount;
 import com.yancy.boot.util.RedisUtil;
+import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.Date;
 
-@RestController
+@Controller
 public class HelloController {
     //Redis工具类
     @Resource
@@ -32,4 +33,19 @@ public class HelloController {
     public Object getRedis(String key){
        return redisUtil.get(key);
     }
+
+
+    @GetMapping("/index/video")
+    public String fileVideo(){
+
+        return "/file/file_video";
+    }
+
+    @GetMapping("/bofan/video")
+    public String video(){
+
+        return "/file/video";
+    }
+
+
 }

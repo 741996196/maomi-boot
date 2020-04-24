@@ -1,28 +1,36 @@
 package com.yancy.boot.mapper.user.entity;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 
+@ApiModel(value = "user对象",description = "用户对象user")
 @Table(name = "user")
 public class User {
     /**
      * 用户主键
      */
+    @ApiModelProperty(value = "用户id",name = "id",example = "举例说明:1")
     @GeneratedValue(generator = "JDBC")
     private Integer id;
 
     /**
      * 用户名
      */
+    @ApiModelProperty(value = "用户名称",name = "username",example = "举例说明:yancy")
     private String username;
 
     /**
      * 密码
      */
+    @ApiModelProperty(value = "用户密码",name ="password",example = "举例说明:123456")
     private String password;
 
     /**
      * 外键关联role表
      */
+    @ApiModelProperty(value = "权限关联id",name = "roleId",required = false)//不是必填
     @Column(name = "role_id")
     private Integer roleId;
 

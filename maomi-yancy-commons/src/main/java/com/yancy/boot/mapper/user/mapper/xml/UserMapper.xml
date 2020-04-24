@@ -10,4 +10,8 @@
     <result column="password" jdbcType="VARCHAR" property="password" />
     <result column="role_id" jdbcType="INTEGER" property="roleId" />
   </resultMap>
+
+    <select id="userAll"  resultMap="BaseResultMap">
+       select * from user
+     </select>
 </mapper>
